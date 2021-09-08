@@ -1,1 +1,1 @@
-# ClickerJavascript
+# Clicker - Javascript
