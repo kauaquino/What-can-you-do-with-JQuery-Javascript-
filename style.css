@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+    background: linear-gradient(-45deg, #57ebff, #28a8b9, #0a707e, #57ebff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #ebebeb;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
